@@ -1,12 +1,62 @@
-.signIn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* #5095e3 */
+/* #2D6661 */
+/* #EEE8A9 */
+
+*{
+  border: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  transition: 0.21s ease-in;
 }
-.signIn_intro {
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  background: rgba( 238, 238, 223, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 20px;
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  user-select: none;
+  color: rgba(247, 247, 247, 0.938);
+  height: 90vh;
+  width: 23%;
+  margin-left: 40%;
+  margin-top: 2%;
+  position: relative;
+}
+.welcome_intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-weight: bolder;
+  position: absolute;
+  top: 10rem;
+  font-size: larger;
+}
+.signin_btn{
+  position: absolute;
+  bottom: 5%;
+  width: 70%;
+  height: 2rem;
+  background: rgba(238, 238, 223, 0.062);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 20px;
+  /* border: 0px solid rgba( 255, 255, 255, 0.18 ); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #2e6aad;
+  font-weight: bolder;
+}
+.signin_btn:hover{
+  
+  color: rgba(247, 247, 247, 0.938);
+  background-color: #5095e3;
 }
