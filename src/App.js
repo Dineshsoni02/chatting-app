@@ -4,13 +4,13 @@ import "./App.css";
 
 import Welcome from "./Components/welcomePage/Welcome";
 
+
+
 function App() {
   return (
     <Router>
       <Route>
-        
         <Welcome />
-      
       </Route>
     </Router>
   );

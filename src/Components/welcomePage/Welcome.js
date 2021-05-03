@@ -4,6 +4,7 @@ import "./Welcome.css";
 import SignIn from '../signin/SignIn';
 
 
+
 function Welcome() {
   return (
     <div className="welcome">
@@ -11,7 +12,7 @@ function Welcome() {
         <h1>Gossip Point</h1>
       </div>
       <div class="signin_btn">Enter</div>
-     
+    
     </div>
   );
 }
